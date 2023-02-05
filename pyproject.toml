@@ -9,8 +9,8 @@ readme = "README.md"
 python = "^3.10"
 
 [tool.poetry.scripts]
-cat = "typeanddrow.scripts.cat:main"
-dog = "typeanddrow.scripts.dog:main"
+draw-cat = "typeanddrow.scripts.draw_cat:main"
+draw-dog = "typeanddrow.scripts.draw_dog:main"
 
 [build-system]
 requires = ["poetry-core"]
